@@ -9,10 +9,7 @@ let phrases = [
   { text: 'попасть в поток грустных песен и вспомнить все ошибки молодости', image: 'https://code.s3.yandex.net/web-code/procrastinate/8.png' },
   { text: 'посмотреть трейлер сериала и заодно первый сезон', image: 'https://code.s3.yandex.net/web-code/procrastinate/9.png' },
   { text: 'проверить непрочитанное в Telegram-каналах', image: 'https://code.s3.yandex.net/web-code/procrastinate/10.png' },
-   { text: 'не будь Вадимом', image: 'https://mail.google.com/mail/u/0?ui=2&ik=fa0acf5492&attid=0.1&permmsgid=msg-a:r626026787043017945&th=18409179491f6a3c&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ9H8bOZREshlofpDZv6xR3CA6k1X_8LYiPX19htMJ_4RbaxobxhFNJ6qEltLFmjuIbQXA1saArIKnaleZUHcxUDIvmwDi16nMLUPwIejDFO_wUrEQEHJa5q4dM&disp=emb&realattid=184091787a673ddbc2a1' }
-];
-
-function getRandomElement(arr) {
+  
   let randIndex = Math.floor(Math.random() * arr.length);
   return arr[randIndex];
 }
